@@ -31,7 +31,7 @@ public class GCDClass {
 		{
 			for(int j=1;j<=Integer.parseInt(numbers[1]);j++)
 			{
-
+				//Big Integer is used for storing large numbers
 				BigInteger bg=new BigInteger(new Integer(i).toString());
 				BigInteger bg1=new BigInteger(new Integer(j).toString());
 				gcdVal=gcdVal.multiply(bg.gcd(bg1));
